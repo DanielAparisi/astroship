@@ -1,9 +1,10 @@
 ---
 // Archivo: src/components/Marquee.astro
+const { text } = Astro.props;
 
 ---
-  <div class="inline-block animate-marquee">
-    
+  <div class=" animate-marquee">
+    {text}
   </div>
 <style>
 @keyframes marquee {
