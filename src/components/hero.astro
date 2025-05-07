@@ -1,13 +1,13 @@
 ---
 import { Picture } from "astro:assets";
-import heroImage from "@/assets/hero.png";
+import logoImg from "@/assets/logoImg.png"
 ---
 
 <main
   class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
   <div class="py-6 md:order-1 hidden md:block">
     <Picture
-      src={heroImage}
+      src={logoImg}
       alt="Astronaut in the air"
       widths={[200, 400, 600]}
       sizes="(max-width: 800px) 100vw, 620px"
@@ -18,7 +18,7 @@ import heroImage from "@/assets/hero.png";
   <div>
     <h1
       class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      Hasta el infinito y mas Alla
+      Conectando innovación, impulsando sostenibilidad
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
       “MAXIVId&a solutions” 
